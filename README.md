@@ -19,3 +19,7 @@ This project is built with **Node.js**, **Express**, **MongoDB**, and **Mongoose
 ### Prerequisites
 ### Step 1: Clone the repository
 
+```bash
+git clone https://github.com/MAVeny426/INTERNSHIP-Veny-M-A-02-04-2025.git
+cd INTERNSHIP-Veny-M-A-02-04-2025
+
