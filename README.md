@@ -30,6 +30,7 @@ cd INTERNSHIP-Veny-M-A-02-04-2025
 **POST** `/api/class/createclass`
 
 - **Description**: Creates a new class with the specified standard and division.
+
 - **Request Body**:
 
 ```json
@@ -44,6 +45,53 @@ cd INTERNSHIP-Veny-M-A-02-04-2025
 {
   "message": "Class created"
 }
+
+### 2. **Update Student's Class**
+
+**PUT** `/api/class/updateclass/:studentId`
+
+- **Description**:  Updates a student's class based on the class standard and division. This will associate the student with a new class.
+- 
+- **URL Parameter:**: studentId - The ID of the student whose class needs to be updated
+
+- **Responses**:
+
+```
+{
+  "message": "Class deleted"
+}
+
+### 3. **Delete a Class**
+
+**POST** `/api/class/:id`
+
+- **Description**: Deletes a class by its ID.
+
+- **URL Parameter:**:id - The ID of the class to delete.
+
+- **Request Body**:
+
+```
+{
+  "standard": "10",
+  "division": "A"
+}
+
+- **Responses**:
+
+```
+{
+  {
+  "message": "Student updated successfully",
+  "student": { 
+    "_id": "studentId",
+    "name": "John Doe",
+    "rollNo": "12345",
+    "mobileNo": "9876543210",
+    "classId": "classId"
+  }
+}
+
 ## PostMan Published Link 
 
 Link :https://documenter.getpostman.com/view/39076226/2sB2j4gBqb
