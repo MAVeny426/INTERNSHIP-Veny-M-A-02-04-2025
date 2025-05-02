@@ -23,3 +23,27 @@ This project is built with **Node.js**, **Express**, **MongoDB**, and **Mongoose
 git clone https://github.com/MAVeny426/INTERNSHIP-Veny-M-A-02-04-2025.git
 cd INTERNSHIP-Veny-M-A-02-04-2025
 
+## API Routes
+
+### 1. **Create a Class**
+
+**POST** `/api/class/createclass`
+
+- **Description**: Creates a new class with the specified standard and division.
+- **Request Body**:
+
+```json
+{
+  "standard": "10",
+  "division": "A"
+}
+
+- **Responses**:
+
+```
+{
+  "message": "Class created"
+}
+## PostMan Published Link 
+
+Link :https://documenter.getpostman.com/view/39076226/2sB2j4gBqb
